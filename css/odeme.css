@@ -1,0 +1,16 @@
+.btnokey{
+	width:70%;
+	padding-top:30px;
+	background-color:green;
+	font-size:19px;
+	padding-bottom:30px;
+	border: none;
+	color: white;
+	margin-top:200px;
+	margin-left:15%;
+	cursor: pointer;
+
+}
+.btnokey:hover{
+opacity:0.5;
+}

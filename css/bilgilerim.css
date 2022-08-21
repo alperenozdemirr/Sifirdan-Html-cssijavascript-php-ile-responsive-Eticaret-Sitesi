@@ -1,0 +1,90 @@
+html,body{
+margin:0 auto;
+padding:0;
+}
+.contanier{
+	width: 1000px;
+	height: auto;
+	margin:0 auto;
+
+
+}
+.content{
+	width: 100%;
+	
+	padding-bottom: 25px;
+	padding-top: 25px;
+	margin-top:35px;
+	float: left;
+}
+.baslik{
+	width:100%;
+	padding-bottom:10px;
+	padding-top:10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:white;
+	border-top:1px solid #dbdbdb;
+	border-bottom:1px solid #dbdbdb;
+
+}
+.baslik h1{
+	font-size:20px;
+	color:black;
+	text-align: center;
+}
+form h1{
+	margin-left:6%;
+font-size:13px;
+float: left;
+	
+}
+form input{
+	width:90%;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:5%;
+	float: left;
+
+}
+form textarea{
+	width:90%;
+	height:150px;
+	margin-left:5%;
+	float: left;
+	resize: none;
+}
+
+.update{
+	width:90%;
+	margin-left:5%;
+	border:1px solid #838383;
+	color:#838383;
+	background-color: white;
+	font-size:18px;
+	text-align: center;
+	padding-top:15px;
+	padding-bottom:15px;
+margin-top:50px;
+cursor: pointer;
+}
+.update:hover{
+	background-color: #838383;
+	color: white;
+	transition:0.5s;
+
+}
+.block{
+	width:100%;
+	height:150px;
+	float: left;
+}
+@media only screen and (max-width:1001px){
+	.contanier{
+	width:95%;
+	height: auto;
+	margin:0 auto;
+margin-left:2.5%;
+}
+}

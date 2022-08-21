@@ -1,0 +1,222 @@
+html,body{
+background-color: white;
+}
+h1,h2,h3,h4{
+	
+	display: inline;
+	color: #484848;
+}
+@font-face {
+    font-family: 'Louis George Cafe\'';
+    src: url('../font/LouisGeorgeCafe.woff2') format('woff2'),
+        url('../font/LouisGeorgeCafe.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Louis George Cafe\'';
+    src: url('../font/LouisGeorgeCafe-Bold.woff2') format('woff2'),
+        url('../font/LouisGeorgeCafe-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.block{
+	width:100%;
+	height:35px;
+	float: left;
+}
+      .contanier{
+      	width:1000px;
+      	height: auto;
+      	margin:0 auto;
+
+      }
+      .swiper-container {
+        width:50%;
+         height:auto;
+         display:flex;
+      	align-items: center;
+      	justify-content: center;
+      float: left;
+       margin-left: auto;
+        margin-right: auto;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        cursor:zoom-in;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width:100%;
+        height:auto;
+        /* object-fit: cover; */
+      }
+
+      
+      .swiper-button-next ,.swiper-button-prev{
+      	opacity:0.4;
+      }
+      .swiper-button-next:hover ,.swiper-button-prev:hover{
+      	opacity:0.8;
+
+      }
+.info{
+	width:50%;
+	height:auto;
+	float: left;
+	background-color:white;
+	position: relative;
+}
+
+
+.top, .bottom, .btn {
+	padding-left:3%;
+	padding-left:3%;
+	width:94%;
+	height: auto;
+	float: left;
+margin-top:25px;
+}
+.adet{
+	width:100px;
+	margin-left:5%;
+	margin-bottom:30px;
+	
+	background-color:white;
+	float: left;
+	height:50px;
+	border-radius:5px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+.eksi, .arti{
+	width:20px;
+	height:40px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+	transition:0.7s;
+	cursor: pointer;
+	background-color:#dddddd;
+	color: #005baa;
+	font-size:18px;
+	border: none;
+}
+.eksi{border-radius:5px 0px 0px 5px ;}
+.arti{
+	border-radius:0px 5px 5px 0px ;
+}
+.eksi:hover, .arti:hover{
+-webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+}
+.adet p{
+	display: inline;
+	font-size:20px;
+}
+.eksi, .arti{
+	text-decoration: none;
+}
+.top h1{
+	font-size:1.5em;
+color: #484848;
+}
+.bottom h2{
+	font-size:1.4em ;
+	color: #393;
+}
+.top h3{
+	font-size:1.6em;
+}
+.btnsepet{
+	margin-left:5%;
+width:90%;
+height:50px;
+background-color:#c3bcb4;
+color:white;
+font-size:1.3em;
+border:none;
+display: flex;
+justify-content: center;
+align-items: center;
+transition:0.6s;
+float: left;
+}
+
+.btnsepet img{
+	width:28px;
+}
+.btndetay{
+	margin-left:2%;
+
+}
+.btnsepet:hover ,.btndetay:hover{
+background-color: #b5aba0;
+color:#e9e9e9;
+cursor:pointer;
+-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+.aciklama{
+	width:100%;
+	float: left;
+	padding-top:30px;
+	padding-bottom:30px;
+
+}
+.aciklama h1{
+font-size:2em;
+
+}
+.aciklama p{
+font-family: sans-serif;
+font-size:20px;
+
+}
+.basket-alert{
+	width:220px;
+	padding-bottom:6px;
+	padding-top:6px;
+	position:fixed;
+	z-index: 199;
+	background-color:#439e4a ;
+	right: 0px;
+	bottom:50px;
+	display:none;
+
+}
+.basket-alert p{
+	color: white;
+	font-size:18px;
+	text-align: center;
+
+}
+
+@media only screen and (max-width: 1001px){
+	.contanier{
+		width:95%;
+		margin-left:2.5%;
+	}
+	.info{
+	width: 100%;
+	margin-top:5px;
+}
+.swiper-container{
+	width: 100%;
+
+}
+}
+@media only screen and (max-width: 400px){
+
+}

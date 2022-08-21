@@ -1,0 +1,136 @@
+html,body{
+margin:0 auto;
+padding:0;
+}
+.block{
+	width:100%;
+	float: left;
+	height:60px;
+
+}
+.contanier{
+	width:1000px;
+	margin:0 auto;
+	background-color:white;
+	
+
+}
+.contanier h1{
+	font-size:20px;
+	margin-left:10%;
+	padding-bottom:40px;
+	
+}
+.contanier h2{
+	font-size:13px;
+	display: inline;
+	margin-left:10%;
+
+}
+.alert-info{
+	width:100%;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color: #ebfff3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+margin-top:40px;
+float: left;
+}
+.alert-info h1{
+	color:#505050;
+	font-size:18px;
+
+}
+.alert-info img{
+	width:35px;
+	height: auto;
+	margin-right:10px;
+
+}
+form input{
+	width:80%;
+	margin-left:10%;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:10px;
+	margin-bottom:25px;
+
+
+}
+textarea{
+	width:80%;
+	margin-left:10%;
+	height:150px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:10px;
+	margin-bottom:25px;
+	resize: none;
+}
+.btnOnay{
+	width:80%;
+	margin-left:10%;
+	border:1px solid black;
+	color:black;
+	background-color: white;
+	font-size:18px;
+	text-align: center;
+	padding-top:15px;
+	padding-bottom:15px;
+margin-top:50px;
+cursor: pointer;
+}
+.btnOnay:hover{
+	background-color: black;
+	color: white;
+	transition:0.5s;
+
+}
+
+
+@media only screen and (max-width: 1001px){
+	.contanier{
+	width:100%;
+	margin:0 auto;
+	background-color:white;
+	
+
+}
+form input{
+	width:95%;
+	margin-left:2.5%;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:10px;
+	margin-bottom:25px;
+}
+textarea{
+	width:90%;
+	margin-left:2.5%;
+	height:150px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:10px;
+	margin-bottom:25px;
+	resize: none;
+}
+.contanier h1{
+	font-size:20px;
+	margin-left:2.5%;
+	padding-bottom:40px;
+}
+.contanier h2{
+	
+	margin-left:2.5%;
+
+}
+.btnOnay{
+	width:95%;
+	margin-left:2.5%;
+	background-color:black;
+	color:white;
+	font-size:18px;
+}
+}

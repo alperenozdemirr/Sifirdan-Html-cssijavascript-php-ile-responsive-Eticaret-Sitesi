@@ -1,0 +1,317 @@
+html,body{
+ margin: 0 auto;
+ padding:0;
+ 
+}
+.block{
+	width:100%;
+	height: 40px;
+	float: left;
+}
+
+
+}
+@font-face {
+    font-family: 'Louis George Cafe\'';
+    src: url('../font/LouisGeorgeCafe-Bold.woff2') format('woff2'),
+        url('../font/LouisGeorgeCafe-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Louis George Cafe\'';
+    src: url('../font/LouisGeorgeCafe.woff2') format('woff2'),
+        url('../font/LouisGeorgeCafe.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.contanier{
+	width:75%;
+	height: auto;
+	margin: 0 auto;
+
+}
+.out-content{
+display: flex;
+justify-content: space-between;
+
+}
+.content{
+	float: left;
+	width:70%;
+position: relative;
+	padding-bottom:20px;
+	padding-top:20px;
+background-color:white;
+border-bottom:1px solid darkgray;
+	}
+	.product{
+		width:100%;
+		height:130px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-top:1px solid darkgray;
+	}
+.image{
+	width:90px;
+	float: left;
+	height:auto;
+	cursor:zoom-in;
+}
+.image img{
+	width:95%;
+margin-left:2.5%;
+transition:1s;
+}
+.image img:hover{
+	transform: scale(2);
+}
+.info h1{
+	
+	font-size:19px;
+	
+}
+.info{
+	margin-left:5px;
+}
+.content h1,h2,h3{
+	display: inline;
+}
+
+
+.text{
+	font-size:1.3em;
+}
+.total{
+	width:26%;
+
+	height:auto;
+	background-color:white;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	border:1px solid #dddddd;
+}
+.top1, .top2, .top3, .bottom, .btn{
+	width:96%;
+	padding-left:4%;
+	padding-top:15px;
+	padding-bottom:15px;
+	float: left;
+
+
+}
+.bottom{
+	
+	padding-bottom:25px;
+}
+.total h1{
+	
+	display: inline;
+	color:rgb(18, 18, 18);
+}
+.top h1{
+	font-size:25px;
+}
+.top2 h1, .top3 h1{
+	font-size:19px;
+}
+.bottom h1{
+	font-size:20px;
+	color:;
+}
+.okey{
+	width:200px;
+	height:50px;
+	background-color:#439e4a;
+	color:white;
+	border:none;
+	font-size:1.1em;
+	float: right;
+	cursor: pointer;
+transition:0.8s;
+margin-right:30px;
+
+}
+.okey:hover, .next:hover{
+	opacity:0.5;
+}
+.next{
+	margin-left:5%;
+		width:90%;
+	height:60px;
+	margin-bottom:20px;
+	margin-top:20px;
+	background-color:white;
+	color:#439e4a;
+	border:none;
+	font-size:18px;
+	
+	cursor: pointer;
+transition:0.8s;
+}
+.green{
+	color:#439e4a;
+	
+}
+.adet{
+	width:75px;
+	
+	margin-bottom:0px;
+	
+	background-color:white;
+	float: left;
+	height:;
+	border-radius:5px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+.eksi, .arti{
+	width:17px;
+	height:35px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+	transition:0.7s;
+	cursor: pointer;
+	background-color:#dddddd;
+	color: #005baa;
+	font-size:18px;
+	border: none;
+}
+.eksi{border-radius:5px 0px 0px 5px ;}
+.arti{
+	border-radius:0px 5px 5px 0px ;
+}
+.eksi:hover, .arti:hover{
+opacity:0.5;
+}
+.adet p{
+	display: inline;
+	font-size:16px;
+}
+.eksi, .arti{
+	text-decoration: none;
+}
+.alert{
+	width:80%;
+	margin-left:10%;
+	padding-bottom:25px;
+	padding-top:25px;
+	float: left;
+	background-color: #d3d2b4;
+webkit-box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.17);
+-moz-box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.17);
+box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.17);
+}
+.alert h1{
+	color:white;
+	font-size:25px;
+	text-align: center;
+}
+.price{
+	display: flex;
+	flex-direction: column;
+}
+.btnremove{
+	width:50px;
+	float: right;
+	background-color:black ;
+	color: white;
+	border: none;
+}
+/*responsive Mod------*/
+@media only screen and (max-width: 1301px){
+	.total{
+	width:280px;
+
+	height:auto;
+	background-color:white;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	border:1px solid #dddddd;
+}
+	.contanier{
+	width:1000px;
+	height: auto;
+	margin: 0 auto;
+
+}
+.content{
+	float: left;
+	width:600px;
+position: relative;
+	padding-bottom:20px;
+	padding-top:20px;
+background-color:white;
+	}
+}
+
+@media only screen and (max-width: 1001px){
+	.contanier{
+	width:96%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.content{
+	width: 100%;
+}
+.total{
+	width:95%;
+	margin-left:2.5%;
+}
+}
+@media only screen and (max-width: 600px){
+	.btn h1{
+	display:inline;
+	font-size:20px;
+	text-align: center;
+	margin-left:4px;
+}
+.image{
+	width:60px;
+	float: left;
+	height:auto;
+	cursor:zoom-in;
+}
+.image img{
+	width:95%;
+margin-left:2.5%;
+transition:1s;
+}
+.info h1{
+	
+	font-size:14px;
+}
+.adet{
+	width:50px;
+	margin-left:5%;
+	margin-bottom:30px;	
+}
+.eksi, .arti{
+	width:17px;
+	height:25px;
+	font-size:18px;
+}
+
+
+.adet{
+		
+	padding-left:2px;
+	padding-right:15px;
+	
+}
+.adet p{
+	font-size:12px;
+}
+
+}
